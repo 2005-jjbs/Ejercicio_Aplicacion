@@ -7,17 +7,16 @@
 left to right direction
 skin rose
 
+actor "Estudiante / Usuario" as Usuario
 actor Visitante
-actor Usuario 
 
-rectangle "Red Social" {
+rectangle "Marketplace Javeriana" {
 
-    Visitante --> (Registrar nuevo usuario)
+    Visitante --> (Confirmar contraseña y enviar formulario)
 
-    Usuario --> (Buscar Persona)
-    Usuario --> (Enviar Solicitud de Amistad)
-    Usuario --> (Aceptar o Rechazar solicitud de Amistad)
-    Usuario --> (Ver sus amigos)
+    Usuario --> (Completar registro complementario)
+    Usuario --> (Visualizar catálogo de productos)
+    Usuario --> (Registrar nuevo producto)
 
 }
 @enduml
@@ -25,10 +24,9 @@ rectangle "Red Social" {
 
 ## Listado de Casos de Uso
 
-| # | Nombre |
-|---|--------|
-| CU01  | [Registrar nuevo usuario](casos-de-uso/CU01-Registrar-nuevo-usuario.md) |
-| CU02  | Buscar Persona |
-| CU03  | Enviar Solicitud de Amistad |
-| CU04  | Aceptar o Rechazar solicitud de Amistad |
-| CU05  | Ver sus amigos |
+| #    | Nombre                                                                                                    |
+| ---- | --------------------------------------------------------------------------------------------------------- |
+| CU01 | [Confirmar contraseña y enviar formulario](casos-de-uso/CU01-Confirmar-contraseña-y-enviar-formulario.md) |
+| CU02 | [Completar registro complementario](casos-de-uso/CU02-Completar-registro-complementario.md)               |
+| CU03 | [Visualizar catálogo de productos](casos-de-uso/CU03-Visualizar-catalogo-productos.md)                    |
+| CU04 | [Registrar nuevo producto](casos-de-uso/CU04-Registrar-nuevo-producto.md)                                 |
