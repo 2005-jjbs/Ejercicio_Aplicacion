@@ -26,7 +26,7 @@ rectangle "Marketplace Javeriana" {
 
 | #    | Nombre                                                                                                    |
 | ---- | --------------------------------------------------------------------------------------------------------- |
-| CU01 | [Confirmar contraseña y enviar formulario](casos-de-uso/CU01-Confirmar-contraseña-y-enviar-formulario.md) |
-| CU02 | [Completar registro complementario](casos-de-uso/CU02-Completar-registro-complementario.md)               |
-| CU03 | [Visualizar catálogo de productos](casos-de-uso/CU03-Visualizar-catalogo-productos.md)                    |
-| CU04 | [Registrar nuevo producto](casos-de-uso/CU04-Registrar-nuevo-producto.md)                                 |
+| CU01 | [Confirmar contraseña y enviar formulario](casos-de-uso/CU01-Registrar-nuevo-usuario.md) |
+| CU02 | [Completar registro complementario](casos-de-uso/CU02-Diseñar-Interfaz-Catalogo.md)               |
+| CU03 | [Visualizar catálogo de productos](casos-de-uso/CU03-Diseñar-Formulario-Creacion-Producto.md)                    |
+
